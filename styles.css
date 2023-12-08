@@ -13,4 +13,12 @@ background-color:lavenderblush
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 
+    font-family: 'Karla', sans-serif;
+font-family: 'Xanh Mono', monospace;
+
+
 }
+
+.h1 { font-family: 'Karla', sans-serif;
+    font-family: 'Xanh Mono', monospace;
+    }
