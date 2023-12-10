@@ -4,7 +4,7 @@
 body{
     margin-left: 5%;
     margin-right: 5%;
-background-color:lavenderblush
+background-color:rgb(252, 245, 247)
 
 }
 
@@ -30,3 +30,24 @@ h1 { font-family: 'Karla', sans-serif;
     color:black
     }
     
+    h2 {  font-family: 'Karla', sans-serif;
+        font-family: 'Xanh Mono', monospace;
+        letter-spacing: 2px;
+        text-align: center;
+        color:black
+        
+    }
+
+    p  { font-family: 'Karla', sans-serif;
+        font-family: 'Xanh Mono', monospace;
+        letter-spacing: 2px;
+        text-align: center;
+        color:black}
+
+        button {
+            font-family: 'Karla', sans-serif;
+    font-family: 'Xanh Mono', monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    color:black
+        }
