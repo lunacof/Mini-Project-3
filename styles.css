@@ -8,17 +8,23 @@ background-color:rgb(252, 245, 247)
 
 }
 
+div.header-center ul { font-family: 'Karla', sans-serif;
+    font-family: 'Xanh Mono', monospace;
+    color:rgb(249, 243, 243) }
 
 .header {
-  
-  
+ padding: 3%;
+  background-image: url("images/header2.png");
     text-align:center;
     letter-spacing: 2px;
+    text-decoration-color:white;
+
+    -webkit-text-fill-color: aliceblue;
     
 
     font-family: 'Karla', sans-serif;
 font-family: 'Xanh Mono', monospace;
-color:black
+color:rgb(249, 243, 243)
 
 
 }
