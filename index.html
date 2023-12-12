@@ -19,30 +19,19 @@
 
 <div class="header">
   <div class="header-center">
-    <a class="home" href="#home">Current Works</a>
+    <a class="link" href="#home">Current Works</a>
 
 
-    <a href="about.html">The Artist</a> 
+    <a class = "link" href="about.html">The Artist</a> 
 
-    <a href="#archive">Archive</a>
+    <a class="link" href="https://www.instagram.com/samhandler.studio/" target="_blank">Follow!</a>
   </div>
 </div>
 
 
 
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="images/mom2.png" alt="mom2" width="600" height="400">
-  </a>
-  <div class="desc">Wilder Than That (2019)</div>
-</div>
 
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="images/mom3.jpeg" alt="mom3" width="600" height="400">
-  </a>
-  <div class="desc">Begins With Trust (2020)</div>
-</div>
+
 
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
@@ -51,13 +40,6 @@
   <div class="desc">Under The Sun (2020)</div>
 </div>
 
-
-<div class="gallery">
-  <a target="_blank" href="img_5terre.jpg">
-    <img src="images/mom.jpg" alt="Mom" width="600" height="400">
-  </a>
-  <div class="desc">Arrive Where We Are (2022)</div>
-</div>
 
 <div class="gallery">
   <a target="_blank" href="img_forest.jpg">
@@ -104,6 +86,15 @@
 </div>
 
 <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="images/mom2.png" alt="mom2" width="600" height="400">
+  </a>
+  <div class="desc">Wilder Than That (2019)</div>
+  
+</div>
+
+
+<div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="images/movement.jpeg" alt="mom7" width="600" height="400">
   </a>
@@ -117,12 +108,54 @@
   <div class="desc"> Moving Mountains (2023)</div>
 </div>
 
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="images/mom3.jpeg" alt="mom3" width="600" height="400">
+  </a>
+  <div class="desc">Begins With Trust (2020)</div>
+</div>
+
+
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
     <img src="images/underthesun.png" alt="mom7" width="600" height="400">
   </a>
   <div class="desc">Sand and Sea (2023)</div>
 </div>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="images/mom.jpg" alt="Mom" width="600" height="400">
+  </a>
+  <div class="desc">Arrive Where We Are (2022)</div>
+</div>
+ 
+<div class="gallery">
+  <a target="_blank" href="images/sketch.png">
+    <img src="images/sketch.png" alt="Mom" width="600" height="400">
+  </a>
+  <div class="desc">Notebook Sketches (2023)</div>
+</div>
+ 
+<div class="gallery">
+  <a target="_blank" href="images/waydownhadestown.png">
+    <img src="images/waydownhadestown.png" alt="Mom" width="600" height="400">
+  </a>
+  <div class="desc">Way Down Hadestown (2023)</div>
+</div>
+ 
+
+
+<div class="gallery">
+  <a target="_blank" href="images/quiter.png">
+    <img src="images/quiter.png" alt="Mom" width="600" height="400">
+  </a>
+  <div class="desc">Quieter (2023)</div>
+</div>
+ 
+
+
 
 </body>
 </html>
@@ -139,17 +172,18 @@
     color:black}
 
   div.gallery {
+
+    display: inline-block;
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+
     width: 180px;
 
-    padding-top: 2%;
+    padding-top: 10px;
+
+    align-items: vertical;
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
+  
   
   div.gallery img {
     width: 100%;
@@ -163,14 +197,15 @@
  
 
   div.gallery {
-    margin: 5px;
+
+    margin: 8px;
     
     float: center;
     width: 180px;
   }
   
   div.gallery:hover {
-    border: 3cap solid #fff8fb;
+   opacity: 50%;
   }
   
   div.gallery img {

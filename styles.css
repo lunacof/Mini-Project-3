@@ -1,59 +1,73 @@
-
-
-
-body{
-    margin-left: 5%;
-    margin-right: 5%;
-background-color:rgb(250, 250, 250)
-
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(250, 250, 250);
 }
 
-div.header-center ul { font-family: 'Karla', sans-serif;
-    font-family: 'Xanh Mono', monospace;
-    color:rgb(249, 243, 243) }
+div.header-center ul {
+  font-family: "Karla", sans-serif;
+  font-family: "Xanh Mono", monospace;
+  color: rgb(249, 243, 243);
+  
+}
 
 .header {
- padding: 3%;
-  background-image: url("images/header2.png");
-    text-align:center;
-    letter-spacing: 2px;
-    text-decoration-color:white;
+padding-bottom: 5%;
+  padding: 3%;
+  background-image: url("images/aheader10000.png");
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: underline white;
+  /* text-decoration-color:white; */
 
-    -webkit-text-fill-color: aliceblue;
-    
+  /* -webkit-text-fill-color: aliceblue; */
 
-    font-family: 'Karla', sans-serif;
-font-family: 'Xanh Mono', monospace;
-color:rgb(249, 243, 243)
-
-
+  font-family: "Karla", sans-serif;
+  /* font-family: 'Xanh Mono', monospace; */
+  color: rgb(0, 0, 0) !important;
 }
 
-h1 { font-family: 'Karla', sans-serif;
-    font-family: 'Xanh Mono', monospace;
-    letter-spacing: 2px;
-    text-align: center;
-    color:black
-    }
-    
-    h2 {  font-family: 'Karla', sans-serif;
-        font-family: 'Xanh Mono', monospace;
-        letter-spacing: 2px;
-        text-align: center;
-        color:black
-        
-    }
+.link {
+ 
+  letter-spacing: 2px;
+  text-decoration: underline black;
+  font-family: "Xanh Mono", monospace;
 
-    p  { font-family: 'Karla', sans-serif;
-        font-family: 'Xanh Mono', monospace;
-        letter-spacing: 2px;
-        text-align: center;
-        color:black}
+  
+    color: rgb(0, 0, 0) !important;
 
-        button {
-            font-family: 'Karla', sans-serif;
-    font-family: 'Xanh Mono', monospace;
-    letter-spacing: 2px;
-    text-align: center;
-    color:black
-        }
+    justify-content: space-between;
+    padding: 2%;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-family: "Xanh Mono", monospace;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-family: "Karla", sans-serif;
+  font-family: "Xanh Mono", monospace;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-family: "Xanh Mono", monospace;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-family: "Xanh Mono", monospace;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
